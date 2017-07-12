@@ -1,0 +1,27 @@
+{
+    "name": "apigeewebhook",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": ">=4.3.2"
+    },
+    "scripts": {
+        "deploy": "gcloud app deploy",
+        "start": "node ${SCRIPT:-app.js}"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "apigeetool": "^0.7.1",
+        "bluebird": "^3.5.0",
+        "body-parser": "^1.17.2",
+        "copy-dir": "^0.3.0",
+        "express": "^4.15.3",
+        "replace": "^0.3.0",
+        "request": "^2.81.0"
+    }
+}

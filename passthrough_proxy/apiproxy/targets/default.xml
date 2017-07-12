@@ -1,0 +1,10 @@
+<TargetEndpoint name="default">
+  <PreFlow/>
+  <Flows/>
+  <PostFlow/>
+  <HTTPTargetConnection>
+    <URL>hostnamefromazure</URL>
+  </HTTPTargetConnection>
+  <FaultRules/>
+  <DefaultFaultRule/>
+</TargetEndpoint>
