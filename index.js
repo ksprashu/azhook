@@ -20,7 +20,7 @@ var zipPostfix = '.zip';
 var proxyFile = '/apiproxy/proxies/default.xml';
 var targetFile = '/apiproxy/targets/default.xml';
 
-app.post('/azhook', function(req, res, next) {
+app.post('/', function(req, res, next) {
     if (!req.body) return res.sendStatus(400);
     if (req.body.status != 'success') return res.sendStatus(400);
 
